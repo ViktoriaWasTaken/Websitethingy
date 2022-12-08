@@ -62,5 +62,20 @@ body {
     transition-delay: 0.1s;
     box-shadow: 0 0 10px var(--clr);
 }
- 
 
+.dropdown {
+  border: 2px solid #f3a5c5;
+  border-radius: 1rem;
+  min-width: 55px;
+  max-height: 55px;
+  position:relative;
+  display:block;
+  cursor:pointer;
+}
+.dropdown a {
+  opacity: 0;
+}
+
+.dropdown a:hover {
+  background: #222;
+}
