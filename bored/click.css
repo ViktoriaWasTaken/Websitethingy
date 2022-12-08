@@ -72,10 +72,19 @@ body {
   display:block;
   cursor:pointer;
 }
-.dropdown a {
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdown li {
   opacity: 0;
 }
 
-.dropdown a:hover {
-  background: #222;
+.dropdown li:hover {
+  background: #fff;
+  opacity: 1;
+  text-decoration: none;
+  min-width: 100px;
+  max-height: 100px;
 }
